@@ -3,5 +3,11 @@ package com.techpalle;
 public class B
 {
   
-  public int a=10;
+  public int a;
+  
+  public B(int a)
+  {
+	  this.a=10;
+  }
+  
 }
